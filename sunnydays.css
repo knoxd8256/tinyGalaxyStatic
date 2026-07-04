@@ -197,6 +197,17 @@ hr {
 	margin-right: 0;
 }
 
+.image-row {
+  display: flex;            /* Turns the container into a flex row */
+  justify-content: center;  /* Centers images horizontally (or use space-between) */
+  gap: 15px;                /* Adds neat spacing between the images */
+}
+
+.image-row img {
+  width: 30%;               /* Adjusts size so 3 images fit perfectly in one row */
+  height: auto;             /* Keeps the original aspect ratio to prevent stretching */
+}
+
 /* media queries*/
 @media (max-width: 500px) {
 	nav a {font-size: 1.2rem}
