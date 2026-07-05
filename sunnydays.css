@@ -1,8 +1,9 @@
 /* CSS Document */
 
 body{
-	--primary-color: #FDF0E6;
+	--primary-color: #FFFFFF;
 	--secondary-color: #FDF0E6;
+	--tertiary-color: #F08E80;
 	--panel-background-color: #FDF0E6;
 	--main-background-color: #FFFFFF;
 	margin: 0;
@@ -19,7 +20,7 @@ header {
 	padding: 0;
 	width:100%;
 	margin: 0;
-	background-color: white;
+	background-color: var(--tertiary-color);
 	border-bottom: solid 2px var(--primary-color);
 	text-align: center;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -100,7 +101,7 @@ footer {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
-	background-color: var(--secondary-color);
+	background-color: var(--tertiary-color);
 	position: sticky;
 	margin:0;
 	bottom:0;
