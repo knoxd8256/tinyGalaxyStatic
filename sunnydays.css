@@ -62,10 +62,10 @@ nav a {
 	font-size: 1.5em;
 }
 nav a:hover, .currpage {
-	color: var(--secondary-color);
+	color: var(--tertiary-color);
 }
 nav a::before {
-	background-color: var(--secondary-color);
+	background-color: var(--tertiary-color);
 	content: ' ';
 	height: .1em;
 	width: 60%;
