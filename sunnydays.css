@@ -3,7 +3,7 @@
 body{
 	--primary-color: #FFFFFF;
 	--secondary-color: #FDF0E6;
-	--tertiary-color: #F08E80;
+	--tertiary-color: #F7C3B8;
 	--panel-background-color: #FDF0E6;
 	--main-background-color: #FFFFFF;
 	margin: 0;
@@ -41,7 +41,7 @@ header p {
 }
 nav {
 	box-sizing: border-box;
-	border-bottom: solid 2px var(--primary-color);
+	border-bottom: solid 2px var(--secondary-color);
 	width:100%;
 	margin:0;
 	display: flex;
